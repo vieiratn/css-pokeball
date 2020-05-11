@@ -1,0 +1,121 @@
+/*
+
+CSS Code created by Thiago Nascimento.
+Date: May, 11th. 2020.
+Proprietary CSS.
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3c5aa6;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffcb05;
+}
+
+h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+    color: #ffcb05;
+}
+
+h2 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 3%;
+}
+
+section {
+    background-color: #eeeeee;
+    width: 50%;
+    padding: 10px;
+    border-radius: 3%;
+    border: 1px solid black;
+    margin: 3% auto 1%;
+    box-shadow: 3px 3px black;
+}
+
+.box-pokebola {
+    margin: 3% auto 3%;
+}
+
+.box-pokebola-top,
+.box-pokebola-bottom {
+    justify-content: center;
+    display: flex;
+}
+
+.div-pokebola {
+    width: 200px;
+    height: 200px;
+}
+
+.ce {
+    border-radius: 100% 0 0 0;
+    background-color: #cc0000;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 10px solid black;
+}
+
+.cd {
+    border-radius: 0 100% 0 0;
+    background-color: #cc0000;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 10px solid black;
+}
+
+.be {
+    border-radius: 0 0 0 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.bd {
+    border-radius: 0 0 100% 0;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.pokebola-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 24%;
+    box-shadow: 0 0 0 1px black, 0 0 0 6px white, 0 0 0 15px black;
+}
+
+@media (max-width: 900px) {
+    section {
+        width: 90%;
+    }
+
+    .pokebola-circle {
+        margin-left: 43%;
+    }
+}
