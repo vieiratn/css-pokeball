@@ -115,6 +115,22 @@ section {
         width: 95%;
     }
 
+    .ce {
+        overflow: hidden;
+    }
+
+    .cd {
+        overflow: hidden;
+    }
+
+    .be {
+        overflow: hidden;
+    }
+
+    .bd {
+        overflow: hidden;
+    }
+
     .pokebola-circle {
         margin-left: 43%;
     }
