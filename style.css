@@ -64,8 +64,8 @@ section {
 }
 
 .div-pokebola {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .ce {
@@ -110,25 +110,10 @@ section {
     box-shadow: 0 0 0 1px black, 0 0 0 6px white, 0 0 0 15px black;
 }
 
-@media (max-width: 900px) {
+
+@media (max-width: 600px) {
     section {
         width: 90%;
-    }
-
-    .ce {
-        overflow: hidden;
-    }
-
-    .cd {
-        overflow: hidden;
-    }
-
-    .be {
-        overflow: hidden;
-    }
-
-    .bd {
-        overflow: hidden;
     }
 
     .pokebola-circle {
